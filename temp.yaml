@@ -1,0 +1,11 @@
+apiVersion: v1alpha1
+kind: Example
+openAPI:
+  definitions:
+    io.k8s.cli.setters.replicas:
+      description: hello world
+      x-k8s-cli:
+        setter:
+          name: replicas
+          value: "3"
+          setBy: me

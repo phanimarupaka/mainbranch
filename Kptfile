@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1alpha1
+kind: Kptfile
+metadata:
+  name: mainbranch
+upstream:
+  type: git
+  git:
+    commit: f4935e789c2d05649e224e0cbf689202e4549179
+    repo: https://github.com/phanimarupaka/mainbranch
+    directory: /
+    ref: main
